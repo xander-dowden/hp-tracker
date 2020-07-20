@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hp tracker</title>
+  <script src="./script.js"></script>
+  <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+  <form>
+    <label>
+      Creature Name
+      <input type="string" maxlength="500" name="name" id="name">
+    </label>
+
+    <label>
+      Initial HP
+      <input type="number" required max="10000" name="hp" id="hp">
+    </label>
+
+    <button onclick="createMonster(event)">create</button>
+  </form>
+
+  <ul id="myCreatures"></ul>
+
+
+</body>
+
+
+</html>
